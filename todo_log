@@ -1,0 +1,103 @@
+(standard input):261:09-09 19:02:24.011  4127  4253 D PowerCheckerService: foreground, uid = 10187, app = com.android.todolist
+(standard input):459:09-09 19:02:28.337  2083  3538 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):460:09-09 19:02:28.337  2083  3538 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.MainActivity/1
+(standard input):524:09-09 19:02:28.377  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277} time:50471637
+(standard input):530:09-09 19:02:28.399  4127  4253 D PowerCheckerService: foreground, uid = 10187, app = com.android.todolist
+(standard input):818:09-09 19:02:29.912   740   740 D SurfaceFlinger: duplicate layer name: changing com.android.todolist/com.android.todolist.MainActivity to com.android.todolist/com.android.todolist.MainActivity#1
+(standard input):844:09-09 19:02:31.357  2264  2264 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+(standard input):993:09-09 19:02:33.221   740  3048 W SurfaceFlinger: Attempting to set client state on removed layer: com.android.todolist/com.android.todolist.MainActivity#1
+(standard input):994:09-09 19:02:33.221   740  3048 W SurfaceFlinger: Attempting to destroy on removed layer: com.android.todolist/com.android.todolist.MainActivity#1
+(standard input):1007:09-09 19:02:34.394   740   740 D SurfaceFlinger: duplicate layer name: changing com.android.todolist/com.android.todolist.MainActivity to com.android.todolist/com.android.todolist.MainActivity#1
+(standard input):1102:09-09 19:02:34.640   740   946 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=5b7418b com.android.todolist/com.android.todolist.MainActivity)/@0x9699681 - animation-leash#0
+(standard input):1104:09-09 19:02:34.640   740   946 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=5b7418b com.android.todolist/com.android.todolist.MainActivity)/@0x9699681 - animation-leash#0
+(standard input):1133:09-09 19:02:35.379  2264  2264 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=Name list label=null packageName=com.android.todolist fieldId=2131230821 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+(standard input):1208:09-09 19:02:37.540   740   946 W SurfaceFlinger: Attempting to set client state on removed layer: com.android.todolist/com.android.todolist.MainActivity#1
+(standard input):1210:09-09 19:02:37.540   740   946 W SurfaceFlinger: Attempting to destroy on removed layer: com.android.todolist/com.android.todolist.MainActivity#1
+(standard input):1222:09-09 19:02:38.134  2342  2342 I Timeline: Timeline: Activity_launch_request time:50481393 intent:Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+(standard input):1223:09-09 19:02:38.145  2083  3543 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10187
+(standard input):1224:09-09 19:02:38.157  2083  3543 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{4e39318 com.android.todolist}
+(standard input):1225:09-09 19:02:38.157  2083  3543 E ActivityTrigger: activityStartTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1229:09-09 19:02:38.162  2083  3543 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1230:09-09 19:02:38.162  2083  3543 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1233:09-09 19:02:38.181  2342  2342 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+(standard input):1234:09-09 19:02:38.183  2083  3543 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1235:09-09 19:02:38.183  2083  3543 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1251:09-09 19:02:38.385  2083  2106 I ActivityManager: Displayed com.android.todolist/.ListActivity: +187ms
+(standard input):1258:09-09 19:02:38.892  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{b262055 u0 com.android.todolist/.ListActivity t1277} time:50482152
+(standard input):1260:09-09 19:02:38.894   740   821 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=AppWindowToken{5c19a8c token=Token{1e423bf ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277}}})/@0x5907289 - animation-leash#0
+(standard input):1261:09-09 19:02:38.895   740   821 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=AppWindowToken{5bc7b5b token=Token{3d3da6a ActivityRecord{b262055 u0 com.android.todolist/.ListActivity t1277}}})/@0xcfb21a - animation-leash#0
+(standard input):1262:09-09 19:02:38.895   740   821 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=AppWindowToken{5c19a8c token=Token{1e423bf ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277}}})/@0x5907289 - animation-leash#0
+(standard input):1263:09-09 19:02:38.895   740   821 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=AppWindowToken{5bc7b5b token=Token{3d3da6a ActivityRecord{b262055 u0 com.android.todolist/.ListActivity t1277}}})/@0xcfb21a - animation-leash#0
+(standard input):1284:09-09 19:02:39.921  2264  2264 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+(standard input):1330:09-09 19:02:40.155  2083  3213 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@52e7f9c
+(standard input):1331:09-09 19:02:40.366  2083  3213 D PerfShielderService: com.android.todolist|com.android.todolist/com.android.todolist.ListActivity|203|50483363965054|68|3|9
+(standard input):1332:09-09 19:02:40.376  3246  3966 W MiuiPerfServiceClient: interceptAndQueuing:2342|com.android.todolist|203|68|unknown|null|com.android.todolist/com.android.todolist.ListActivity|50483363965054|Slow handle traversal|9
+(standard input):1350:09-09 19:02:42.328  2083  3213 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1351:09-09 19:02:42.328  2083  3213 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.MainActivity/1
+(standard input):1362:09-09 19:02:42.904  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277} time:50486163
+(standard input):1374:09-09 19:02:43.326  2342  2342 I Timeline: Timeline: Activity_launch_request time:50486585 intent:Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+(standard input):1375:09-09 19:02:43.331  9478  8060 E AD-PLUGIN-SplashController: This package is fore ground , skip splash : com.android.todolist
+(standard input):1376:09-09 19:02:43.332  2083  3213 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10187
+(standard input):1377:09-09 19:02:43.341  2083  3213 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{4e39318 com.android.todolist}
+(standard input):1378:09-09 19:02:43.341  2083  3213 E ActivityTrigger: activityStartTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1382:09-09 19:02:43.346  2083  3213 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1383:09-09 19:02:43.346  2083  3213 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1386:09-09 19:02:43.365  2342  2342 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+(standard input):1387:09-09 19:02:43.369  2083  3213 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1388:09-09 19:02:43.369  2083  3213 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1406:09-09 19:02:43.565  2083  2106 I ActivityManager: Displayed com.android.todolist/.ListActivity: +189ms
+(standard input):1410:09-09 19:02:44.056  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{28405f6 u0 com.android.todolist/.ListActivity t1277} time:50487316
+(standard input):1432:09-09 19:02:44.567  2264  2264 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=Text imeActionName=DONE dump=[inputType=0x61 imeOptions=0x6 privateImeOptions=null actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=New task label=null packageName=com.android.todolist fieldId=2131230877 fieldName=null extras=null hintLocales=null contentMimeTypes=null ], IncognitoMode = false, DeviceLocked = false
+(standard input):1479:09-09 19:02:45.375  2083  3542 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@77700c7
+(standard input):1532:09-09 19:02:48.549  2083  3213 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1533:09-09 19:02:48.549  2083  3213 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.MainActivity/1
+(standard input):1542:09-09 19:02:49.123  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277} time:50492383
+(standard input):1558:09-09 19:02:49.858  2342  2342 I Timeline: Timeline: Activity_launch_request time:50493118 intent:Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+(standard input):1559:09-09 19:02:49.863  9478  8060 E AD-PLUGIN-SplashController: This package is fore ground , skip splash : com.android.todolist
+(standard input):1560:09-09 19:02:49.863  2083  2618 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10187
+(standard input):1561:09-09 19:02:49.871  2083  2618 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{4e39318 com.android.todolist}
+(standard input):1562:09-09 19:02:49.871  2083  2618 E ActivityTrigger: activityStartTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1566:09-09 19:02:49.875  2083  2618 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1567:09-09 19:02:49.875  2083  2618 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1570:09-09 19:02:49.896  2342  2342 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+(standard input):1571:09-09 19:02:49.898  2083  3538 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1572:09-09 19:02:49.898  2083  3538 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1587:09-09 19:02:50.086  2083  2106 I ActivityManager: Displayed com.android.todolist/.ListActivity: +180ms
+(standard input):1621:09-09 19:02:50.588  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{3f0b0a8 u0 com.android.todolist/.ListActivity t1277} time:50493848
+(standard input):1623:09-09 19:02:50.592   740   946 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=AppWindowToken{5c19a8c token=Token{1e423bf ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277}}})/@0x5907289 - animation-leash#0
+(standard input):1624:09-09 19:02:50.592   740   946 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=AppWindowToken{6299b66 token=Token{d3e97c1 ActivityRecord{3f0b0a8 u0 com.android.todolist/.ListActivity t1277}}})/@0xd7bf331 - animation-leash#0
+(standard input):1625:09-09 19:02:50.592   740   946 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=AppWindowToken{5c19a8c token=Token{1e423bf ActivityRecord{7f61119 u0 com.android.todolist/.MainActivity t1277}}})/@0x5907289 - animation-leash#0
+(standard input):1626:09-09 19:02:50.592   740   946 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=AppWindowToken{6299b66 token=Token{d3e97c1 ActivityRecord{3f0b0a8 u0 com.android.todolist/.ListActivity t1277}}})/@0xd7bf331 - animation-leash#0
+(standard input):1639:09-09 19:02:51.897  2083  3213 W NotificationService: Toast already killed. pkg=com.android.todolist callback=android.app.ITransientNotification$Stub$Proxy@9fe4c87
+(standard input):1640:09-09 19:02:52.346   740   740 D SurfaceFlinger: duplicate layer name: changing com.android.todolist/com.android.todolist.ListActivity to com.android.todolist/com.android.todolist.ListActivity#1
+(standard input):1649:09-09 19:02:53.263   740  3048 W SurfaceFlinger: Attempting to set client state on removed layer: com.android.todolist/com.android.todolist.ListActivity#1
+(standard input):1651:09-09 19:02:53.263   740  3048 W SurfaceFlinger: Attempting to destroy on removed layer: com.android.todolist/com.android.todolist.ListActivity#1
+(standard input):1653:09-09 19:02:53.267   740  3048 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=5ee6752 com.android.todolist/com.android.todolist.ListActivity)/@0x2afcb20 - animation-leash#0
+(standard input):1655:09-09 19:02:53.267   740  3048 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=5ee6752 com.android.todolist/com.android.todolist.ListActivity)/@0x2afcb20 - animation-leash#0
+(standard input):1658:09-09 19:02:54.081  2342  2342 I Timeline: Timeline: Activity_launch_request time:50497339 intent:Intent { cmp=com.android.todolist/.MainActivity }
+(standard input):1660:09-09 19:02:54.089  9478  8060 E AD-PLUGIN-SplashController: This package is fore ground , skip splash : com.android.todolist
+(standard input):1661:09-09 19:02:54.093  2083  3213 I ActivityManager: START u0 {cmp=com.android.todolist/.MainActivity} from uid 10187
+(standard input):1662:09-09 19:02:54.102  2083  3213 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{4e39318 com.android.todolist}
+(standard input):1663:09-09 19:02:54.102  2083  3213 E ActivityTrigger: activityStartTrigger: not whiteListedcom.android.todolist/com.android.todolist.MainActivity/1
+(standard input):1667:09-09 19:02:54.104  2083  3213 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1668:09-09 19:02:54.104  2083  3213 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.MainActivity/1
+(standard input):1672:09-09 19:02:54.124  2083  2429 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1673:09-09 19:02:54.124  2083  2429 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.MainActivity/1
+(standard input):1684:09-09 19:02:54.352  2083  2106 I ActivityManager: Displayed com.android.todolist/.MainActivity: +220ms
+(standard input):1689:09-09 19:02:54.859  2083  2106 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{108e213 u0 com.android.todolist/.MainActivity t1277} time:50498119
+(standard input):1697:09-09 19:02:54.863   740  3048 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=AppWindowToken{6299b66 token=Token{d3e97c1 ActivityRecord{3f0b0a8 u0 com.android.todolist/.ListActivity t1277}}})/@0xd7bf331 - animation-leash#0
+(standard input):1698:09-09 19:02:54.863   740  3048 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=AppWindowToken{e863e49 token=Token{35c3c50 ActivityRecord{108e213 u0 com.android.todolist/.MainActivity t1277}}})/@0x59b4568 - animation-leash#0
+(standard input):1699:09-09 19:02:54.863   740  3048 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=AppWindowToken{6299b66 token=Token{d3e97c1 ActivityRecord{3f0b0a8 u0 com.android.todolist/.ListActivity t1277}}})/@0xd7bf331 - animation-leash#0
+(standard input):1700:09-09 19:02:54.863   740  3048 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=AppWindowToken{e863e49 token=Token{35c3c50 ActivityRecord{108e213 u0 com.android.todolist/.MainActivity t1277}}})/@0x59b4568 - animation-leash#0
+(standard input):1722:09-09 19:02:57.706  2342  2342 I Timeline: Timeline: Activity_launch_request time:50500966 intent:Intent { cmp=com.android.todolist/.ListActivity (has extras) }
+(standard input):1723:09-09 19:02:57.712  9478  8060 E AD-PLUGIN-SplashController: This package is fore ground , skip splash : com.android.todolist
+(standard input):1724:09-09 19:02:57.712  2083  2429 I ActivityManager: START u0 {cmp=com.android.todolist/.ListActivity (has extras)} from uid 10187
+(standard input):1725:09-09 19:02:57.720  2083  2429 D ActivityTrigger: activityStartTrigger: Activity is Triggerred in full screen ApplicationInfo{4e39318 com.android.todolist}
+(standard input):1726:09-09 19:02:57.720  2083  2429 E ActivityTrigger: activityStartTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1730:09-09 19:02:57.723  2083  2429 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1731:09-09 19:02:57.724  2083  2429 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1734:09-09 19:02:57.747  2342  2342 I Toast   : Show toast from OpPackageName:com.android.todolist, PackageName:com.android.todolist
+(standard input):1735:09-09 19:02:57.749  2083  2429 D ActivityTrigger: activityResumeTrigger: The activity in ApplicationInfo{4e39318 com.android.todolist} is now in focus and seems to be in full-screen mode
+(standard input):1736:09-09 19:02:57.749  2083  2429 E ActivityTrigger: activityResumeTrigger: not whiteListedcom.android.todolist/com.android.todolist.ListActivity/1
+(standard input):1751:09-09 19:02:57.951  2083  2106 I ActivityManager: Displayed com.android.todolist/.ListActivity: +194ms
+(standard input):1757:09-09
